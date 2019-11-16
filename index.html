@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator JCVD</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+
+<div id="calculator" class="container">
+	<!-- Screen and clear key -->
+	<div class="top row">
+		<div class="screen"></div>
+		<img src="images/icone_van_damme.png" alt="" style="width: 30%; height: 30%;">
+	</div>
+
+	<div class="keys container">
+		<!-- operators and other keys -->
+		<div class="row">
+			<span class="clear-last col-md-3">Volume</span>
+			<span id="cl" class="clear-last col-md-3">CL</span>
+			<span id="ca" class="clear-all col-md-3">C</span>
+			<span id="divide" class="operator col-md-3">÷</span>
+		</div>
+		<div class="row">
+			<span id="seven" class="col-md-3">7</span>
+			<span id="eight" class="col-md-3">8</span>
+			<span id="nine" class="col-md-3">9</span>
+			<span id="multiply" class="operator col-md-3">x</span>
+		</div>
+		<div class="row">
+			<span id="four" class="col-md-3">4</span>
+			<span id="five" class="col-md-3">5</span>
+			<span id="six" class="col-md-3">6</span>
+			<span id="minus" class="operator col-md-3">-</span>
+		</div>
+		<div class="row">
+			<span id="one" class="col-md-3">1</span>
+			<span id="two" class="col-md-3">2</span>
+			<span id="three" class="col-md-3">3</span>
+			<span id="plus" class="operator col-md-3">+</span>
+		</div>
+		<div class="row">
+			<span id="zero" class="col-md-6 col-lg-6">0</span>
+			<span id="point" class="col-md-3 col-lg-3">.</span>
+			<span id="equals" class="eval col-md-3 col-md-3">=</span>
+		</div>
+	</div>
+</div>
+
+<!-- Script -->
+<script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
