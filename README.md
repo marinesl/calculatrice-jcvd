@@ -9,6 +9,7 @@ Calculatrice digitalisée, responsive et accessible
 
 ## Collaboration
 Equipe 1+1=11 : Vincent BANCQUART & Renaud BOURLON
+
 ![exemple](https://github.com/marinesl/calculatrice-jcvd/blob/master/capture-1.png)
 
 ## Préface :
@@ -26,7 +27,7 @@ La calculatrice digitale fonctionne comme n’importe quelle calculatrice mais e
 - Code des caractères pour la fonction keypress() : [lien](http://keycode.info/)
 - Documentation du plugins JS -prefix-free : [lien](https://www.alsacreations.com/article/lire/1306-prefix-free-prefixes-CSS3.html)
 - Tuto de réalisation d’une calculatrice en HTML / CSS / Jquery : [lien](https://www.codecademy.com/courses/web-intermediate-en-jfhjJ/0/1)
-- Documentation sur l’interface d’une calculatrice : [lien](http://uxmovement.com/thinking/why-calculators-need-a-better-user-interface/
+- Documentation sur l’interface d’une calculatrice : [lien](http://uxmovement.com/thinking/why-calculators-need-a-better-user-interface/)
 - Tuto de réalisation d’une calculatrice en Java : [lien](https://openclassrooms.com/courses/apprenez-a-programmer-en-java/tp-une-calculatrice)
 - Tuto de réalisation d’une calculatrice en R Program :[lien](https://www.programiz.com/r-programming/examples/simple-calculator)
 - Tuto de réalisation d’une calculatrice en Python : [lien](https://www.programiz.com/python-programming/examples/calculator)
@@ -48,8 +49,10 @@ Les raisons :
 Pour une meilleure utilisation de la calculatrice standard, les éléments suivants sont envisagés :
 - Afficher de la dernière opération effectuée, peut-être un historique ;
 - Afficher l’opération en cours : 
+
 ![exemple](https://github.com/marinesl/calculatrice-jcvd/blob/master/capture-2.png)
 - Remplacer les boutons « C » et « CE » par quelque chose de plus intuitif (comme le retour arrière ou supprimer de Windows) :
+
 ![exemple](https://github.com/marinesl/calculatrice-jcvd/blob/master/capture-3.png)
 - Avoir les outils « flèches » pour naviguer facilement entre les chiffres ;
 - Adapter les éléments à la taille de l’écran.
@@ -78,14 +81,14 @@ L’installation d’un lecteur d’écran pour tester (ex : [JAWS](www.freedom
 ### Quelques exemples de rôles :
 | Marqueur HTML5 |   Rôle ARIA   |
 |:--------------:|:-------------:|
-|    <article>   |    article    |
-|     <aside>    | complementary |
-|    <footer>    |  contentinfo  |
-|     <form>     |      form     |
-|    <header>    |     banner    |
-|     <main>     |      main     |
-|      <nav>     |   navigation  |
-|    <section>   |     region    |
+|    &lt;article&gt;   |    article    |
+|     &lt;aside&gt;    | complementary |
+|    &lt;footer&gt;    |  contentinfo  |
+|     &lt;form&gt;     |      form     |
+|    &lt;header&gt;    |     banner    |
+|     &lt;main&gt;     |      main     |
+|      &lt;nav&gt;     |   navigation  |
+|    &lt;section&gt;   |     region    |
 
 ## Les avantages et les inconvénients d’avoir une calculatrice sur pc plutôt que physique
 
