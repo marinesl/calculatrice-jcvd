@@ -1,4 +1,4 @@
-# calculatrice-jvd
+# calculatrice-jcvd
 Calculatrice digitalisée, responsive et accessible
 
 ## Contexte
